@@ -65,7 +65,7 @@ Kubernetes operator. Each group is reflected as a VM folder named
 replica field. Each individual VM contains the number of CPU and amount of
 memory as specified and they are created from the template name.
 
-Example of Customer Resource:
+Example of Custom Resource:
 
 ```yaml
 apiVersion: vm.codeconnect.vmworld.com/v1alpha1
